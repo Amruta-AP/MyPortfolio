@@ -1,0 +1,60 @@
+/* Home */
+#home{
+     height: 820px;
+}
+.headings{
+     font-size: 1.7rem;
+     /* margin: 20px 0px; */
+}
+.headings1{
+    font-size: 1.5rem;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid white;  */
+    align-items: center;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+} 
+
+/* About */
+#pic img{
+    width: 250px;
+    height: 175px;
+}
+#intro h2{
+    font-size: 1.5rem;
+}
+
+/* Education */
+.box{
+    display:flex;
+    flex-direction: column;
+    width:280px;
+    height: 400px;
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+/* certifications */
+.gallery img{
+    width: 250px;
+    height: 150px;
+    margin: 10px;
+}
+
+/* Contact */
+.input{
+    width:80%;
+}
+#msg{
+    width: 70%;
+}
+#send{
+    width: 20%;
+}
